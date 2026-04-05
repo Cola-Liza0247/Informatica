@@ -1,8 +1,5 @@
 def count_letters(text):
-    """
-    Подсчитывает количество каждой буквы в тексте.
-    Буквы верхнего и нижнего регистра считаются одинаковыми.
-    """
+
     letter_count = {}
 
     for char in text.lower():
@@ -16,10 +13,7 @@ def count_letters(text):
 
 
 def calculate_frequency(letter_count):
-    """
-    Вычисляет частоту каждой буквы.
-    Частота = количество буквы / общее количество всех букв
-    """
+ 
     total_letters = sum(letter_count.values())
     frequency = {}
 
